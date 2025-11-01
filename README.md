@@ -1,3 +1,2 @@
 # Filterchat
-***
 A minecraft mod.
