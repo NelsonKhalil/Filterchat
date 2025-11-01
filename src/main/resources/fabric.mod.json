@@ -11,7 +11,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "io.github.bloxxxx.filterchat.FilterchatClient"
+      "io.github.bloxxxx.filterchat.Filterchat"
     ]
   },
   "mixins": [
