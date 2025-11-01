@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "filterchat",
+  "version": "${version}",
+  "name": "FilterChat",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/filterchat/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.bloxxxx.filterchat.FilterchatClient"
+    ]
+  },
+  "mixins": [
+    "filterchat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
